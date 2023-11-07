@@ -241,5 +241,5 @@ social:
 
 
 sidebar:
-  position: right # left
+  position: left # left
   avatar: avatar.jpg
