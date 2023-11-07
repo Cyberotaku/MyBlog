@@ -1,114 +1,3 @@
-markdown:
-  render: # 渲染器设置
-    html: false # 过滤 HTML 标签
-    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
-    breaks: true # 转换段落里的 '\n' 到 <br>。
-    linkify: true # 将类似 URL 的文本自动转换为链接。
-    typographer:
-    quotes: "“”‘’"
-  plugins: # markdown-it 插件设置
-    - plugin:
-        name: markdown-it-toc-and-anchor
-        enable: true
-        options: # 文章目录以及锚点应用的 class 名称，shoka 系主题必须设置成这样
-          tocClassName: "toc"
-          anchorClassName: "anchor"
-    - plugin:
-        name: markdown-it-multimd-table
-        enable: true
-        options:
-          multiline: true
-          rowspan: true
-          headerless: true
-    - plugin:
-        name: ./markdown-it-furigana
-        enable: true
-        options:
-          fallbackParens: "()"
-    - plugin:
-        name: ./markdown-it-spoiler
-        enable: true
-        options:
-          title: "你知道得太多了"
-
-autoprefixer:
-  exclude:
-    - "*.min.css"
-
-
-
-highlight:
-  enable: false
-
-prismjs:
-  enable: false
-
-
-
-syntax_highlighter: false
-
-
-
-minify:
-  html:
-    enable: true
-    exclude: # 排除 hexo-feed 用到的模板文件
-      - "**/json.ejs"
-      - "**/atom.ejs"
-      - "**/rss.ejs"
-  css:
-    enable: true
-    exclude:
-      - "**/*.min.css"
-  js:
-    enable: true
-    mangle:
-      toplevel: true #如果js压缩错误请删除此行
-    output:
-    compress:
-      ecma: 2018
-    exclude:
-      - "**/*.min.js"
-
-
-
-feed:
-  limit: 20
-  order_by: "-date"
-  tag_dir: false
-  category_dir: false
-  rss:
-    enable: true
-    template: "node_modules/hexo-theme-shokax/layout/_alternate/rss.ejs"
-    output: "rss.xml"
-  atom:
-    enable: true
-    template: "node_modules/hexo-theme-shokax/layout/_alternate/atom.ejs"
-    output: "atom.xml"
-  jsonFeed:
-    enable: true
-    template: "node_modules/hexo-theme-shokax/layout/_alternate/json.ejs"
-    output: "feed.json"
-
-
-
-algolia:
-  appId: U7UHH0UC24 #Your appId
-  apiKey: dcfaa7e762bd9f9425278a6c146dd91c #Your apiKey
-  adminApiKey: b30025fe49ef1d0450b80df93daa0f68 #Your adminApiKey
-  chunkSize: 5000
-  indexName: shokaX #"shokaX"
-  fields:
-    - title #必须配置
-    - path #必须配置
-    - categories #推荐配置
-    - content:strip:truncate,0,2000
-    - gallery
-    - photos
-    - tags
-
-
-
 statics: "/" # 静态文件根目录，可用于CDN加速
 assets: "assets" # 图片资源存放目录
 css: "css" # css存放目录(不建议改动)
@@ -146,3 +35,47 @@ social:
 sidebar:
   position: left # left
   avatar: avatar.jpg
+
+
+
+widgets:
+  random_posts: true # 随机文章
+  recent_comments: true # 显示最近评论
+
+
+
+# 页尾全站统计
+footer:
+  since: 2010 # 开始时间
+  count: true # 开启
+# 文章界面统计
+post:
+  count: true # 开启
+
+
+
+performance:
+  # 使用preconnect预加载的网址(不建议超过三个)
+  preConnect:
+    - "https://lf9-cdn-tos.bytecdntp.com"
+  # 使用dns-prefetch预解析的网址
+  dnsPrefetch:
+    - "https://cdn.jsdelivr.net"
+    - "https://unpkg.com"
+
+
+
+seo:
+  bing:
+  google:
+  yandex:
+  baidu:
+
+visitor:
+  clarity: false
+  baiduAnalytics: false
+  googleAnalytics: false
+
+
+
+darkmode: true # true
