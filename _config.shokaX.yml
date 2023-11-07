@@ -79,3 +79,15 @@ visitor:
 
 
 darkmode: true # true
+
+
+
+auto_scroll: false
+
+
+
+experiments:
+  optimizeLongPosts: true # 开启长文章优化
+
+
+

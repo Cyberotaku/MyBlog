@@ -68,6 +68,17 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  C++:cpp
+  Python:python
+  Notes:note
+  AI:ai
+  Game:game
+  Animation:animation
+  数学:math
+  线代:line
+  高数:senior
+  离散:discrete
+
 tag_map:
 
 # Metadata elements
