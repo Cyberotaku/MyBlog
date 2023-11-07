@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "removeComments": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["theme-shokax-anime","lozad","jquery","fancybox"]
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "include": ["source/js/**/*","scripts/**/*"],
+}
