@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 alternate:
   enabled: true
-  title: 'Hekaze\'s Blog'
+  title: "Hekaze's Blog"
   type: "text/html"
-  link: "https://www.yourblog.com" # 站点大标题
+  link: "https://genshinstart.fun" # 站点大标题
 # Site
 title: 阴暗の小窝
 subtitle: 'hekaze'
