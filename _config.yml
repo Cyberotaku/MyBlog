@@ -1,10 +1,10 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+alternate: 柳逸飞尘の小窝 # 站点大标题
 # Site
-title: Blog
-subtitle: ''
+title: 柳逸飞尘の小窝
+subtitle: '官人快来玩呀~'
 description: ''
 keywords:
 author: 柳逸飞尘
