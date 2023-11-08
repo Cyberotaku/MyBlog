@@ -1,93 +1,93 @@
-statics: "/" # 静态文件根目录，可用于CDN加速
-assets: "assets" # 图片资源存放目录
-css: "css" # css存放目录(不建议改动)
-js: "js" # js存放目录(不建议改动)
+# statics: "/" # 静态文件根目录，可用于CDN加速
+# assets: "assets" # 图片资源存放目录
+# css: "css" # css存放目录(不建议改动)
+# js: "js" # js存放目录(不建议改动)
 
 
 
-menu:
-  home: / || home
-  submenu:
-    default: /page/ || user
-    link: /page1/ || cloud
-  link2: /page2/ || coffee
+# menu:
+#   home: / || home
+#   submenu:
+#     default: /page/ || user
+#     link: /page1/ || cloud
+#   link2: /page2/ || coffee
 
 
 
-social:
-  github: https://github.com/name || github || "#191717"
-  # google: https://plus.google.com/yourname || google
-  # twitter: https://twitter.com/yourname || twitter || "#00aff0"
-  # zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
-  # music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
-  # weibo: https://weibo.com/yourname || weibo || "#ea716e"
-  # about: https://about.me/yourname || address-card || "#3b5998"
-  # email: mailto:foo@xxx.com || envelope || "#55acd5"
-  # facebook: https://www.facebook.com/yourname || facebook
-  # stackoverflow: https://stackoverflow.com/ || stack-overflow
-  # youtube: https://youtube.com/yourname || youtube
-  # instagram: https://instagram.com/yourname || instagram
-  # skype: skype:yourname?call|chat || skype
-  # douban: https://www.douban.com/people/yourname/ || douban
+# social:
+#   github: https://github.com/name || github || "#191717"
+#   # google: https://plus.google.com/yourname || google
+#   # twitter: https://twitter.com/yourname || twitter || "#00aff0"
+#   # zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
+#   # music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
+#   # weibo: https://weibo.com/yourname || weibo || "#ea716e"
+#   # about: https://about.me/yourname || address-card || "#3b5998"
+#   # email: mailto:foo@xxx.com || envelope || "#55acd5"
+#   # facebook: https://www.facebook.com/yourname || facebook
+#   # stackoverflow: https://stackoverflow.com/ || stack-overflow
+#   # youtube: https://youtube.com/yourname || youtube
+#   # instagram: https://instagram.com/yourname || instagram
+#   # skype: skype:yourname?call|chat || skype
+#   # douban: https://www.douban.com/people/yourname/ || douban
 
 
 
-sidebar:
-  position: left # left
-  avatar: avatar.jpg
+# sidebar:
+#   position: left # left
+#   avatar: avatar.jpg
 
 
 
-widgets:
-  random_posts: true # 随机文章
-  recent_comments: true # 显示最近评论
+# widgets:
+#   random_posts: true # 随机文章
+#   recent_comments: true # 显示最近评论
 
 
 
-# 页尾全站统计
-footer:
-  since: 2010 # 开始时间
-  count: true # 开启
-# 文章界面统计
-post:
-  count: true # 开启
+# # 页尾全站统计
+# footer:
+#   since: 2010 # 开始时间
+#   count: true # 开启
+# # 文章界面统计
+# post:
+#   count: true # 开启
 
 
 
-performance:
-  # 使用preconnect预加载的网址(不建议超过三个)
-  preConnect:
-    - "https://lf9-cdn-tos.bytecdntp.com"
-  # 使用dns-prefetch预解析的网址
-  dnsPrefetch:
-    - "https://cdn.jsdelivr.net"
-    - "https://unpkg.com"
+# performance:
+#   # 使用preconnect预加载的网址(不建议超过三个)
+#   preConnect:
+#     - "https://lf9-cdn-tos.bytecdntp.com"
+#   # 使用dns-prefetch预解析的网址
+#   dnsPrefetch:
+#     - "https://cdn.jsdelivr.net"
+#     - "https://unpkg.com"
 
 
 
-seo:
-  bing:
-  google:
-  yandex:
-  baidu:
+# seo:
+#   bing:
+#   google:
+#   yandex:
+#   baidu:
 
-visitor:
-  clarity: false
-  baiduAnalytics: false
-  googleAnalytics: false
-
-
-
-darkmode: true # true
+# visitor:
+#   clarity: false
+#   baiduAnalytics: false
+#   googleAnalytics: false
 
 
 
-auto_scroll: false
+# darkmode: true # true
 
 
 
-experiments:
-  optimizeLongPosts: true # 开启长文章优化
+# auto_scroll: false
+
+
+
+# experiments:
+#   optimizeLongPosts: true # 开启长文章优化
 
 
 
