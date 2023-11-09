@@ -1,4 +1,4 @@
-alternate: myblog # 站点大标题
+alternate: hekaze's blog # 站点大标题
 
 statics: "/" # 静态文件根目录
 assets: "assets"
@@ -181,7 +181,7 @@ waline:
     - mail
   wordLimit: 0 # 字数限制,0为不限制
   pageSize: 10 # 每页评论条数
-  pageview: true # 是否开启浏览量统计,可独立开启
+  pageview: false # 是否开启浏览量统计,可独立开启
 
 # https://github.com/gitalk/gitalk/blob/master/readme-cn.md
 gitalk:
@@ -254,7 +254,7 @@ widgets:
 
 footer:
   # Specify the date when the site was set up. If not defined, current year will be used.
-  since: 2023
+  since: 2022
   icon:
     name: sakura rotate
     # Change the color of icon, using Hex Code.
