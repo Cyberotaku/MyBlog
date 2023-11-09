@@ -3,7 +3,7 @@
 # css: "css" # css存放目录(不建议改动)
 # js: "js" # js存放目录(不建议改动)
 
-
+alternate: myblog # 站点大标题
 
 # menu:
 #   home: / || home
