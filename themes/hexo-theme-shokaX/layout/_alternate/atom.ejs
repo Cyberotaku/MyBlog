@@ -16,7 +16,8 @@
     <entry>
         <id><%= post.permalink %></id>
         <title><%= post.title %></title>
-        <link rel="alternate" href="<%= post.permalink %>"/>
+        <!-- <link rel="alternate" href="<%= post.permalink %>"/>  修改 -->
+        <link rel="alternate" href="<%= post.permalink %>" title="hekaze's blog"/>
         <content type="html"><%= post.content %></content>
         <%_ for (const { name, path } of (post.categories ? post.categories.toArray() : [])) { _%>
         <category term="<%= name %>" scheme="<%= full_url_for(path) %>" />
