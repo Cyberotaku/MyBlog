@@ -184,27 +184,27 @@ waline:
   pageview: false # 是否开启浏览量统计,可独立开启
 
 # https://github.com/gitalk/gitalk/blob/master/readme-cn.md
-gitalk:
-  clientID:
-  clientSecret:
-  repo:
-  owner:
-  admin:
-  proxy: # 选填
+# gitalk:
+#   clientID:
+#   clientSecret:
+#   repo:
+#   owner:
+#   admin:
+#   proxy: # 选填
 
 # https://giscus.app/zh-CN
-giscus:
-  repo:
-  repoId:
-  category:
-  categoryId:
-  mapping:
-  strict:
-  reactionsEnabled:
-  emitMetadata:
-  inputPosition:
-  commentTheme:
-  lang:
+# giscus:
+#   repo:
+#   repoId:
+#   category:
+#   categoryId:
+#   mapping:
+#   strict:
+#   reactionsEnabled:
+#   emitMetadata:
+#   inputPosition:
+#   commentTheme:
+#   lang:
 
 summary:
   enable: false
