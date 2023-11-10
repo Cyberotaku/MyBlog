@@ -269,9 +269,9 @@ footer:
   icp: # ICP备案
     enable: true
     icon: "beian.webp" #网安备案图片
-    icpnumber: "没有捏" # ICP备案号
-    beian: "没有捏" # 网安备案号
-    recordcode: "没有捏" # 网安备案链接中的recordcode参数
+    icpnumber: "还没有捏" # ICP备案号
+    beian: "还没有捏" # 网安备案号
+    recordcode: "还没有捏" # 网安备案链接中的recordcode参数
 
 post:
   count: true
