@@ -278,7 +278,7 @@ post:
 
 # 文章是否失效
 outime:
-  enable: false
+  enable: true
   days: 90 # 超过 90 天文章失效
 
 reward:
