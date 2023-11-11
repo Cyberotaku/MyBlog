@@ -9,7 +9,7 @@ categories:
 cover: https://z1.ax1x.com/2023/11/08/pi1lhyd.jpg
  audio:
   - https://music.163.com/#/song?id=30245064
- audio: true
+ audio: false
 ---
 
 1、在需要创建 .gitignore 文件的文件夹, 右键选择Git Bash 进入命令行，进入项目所在目录。
