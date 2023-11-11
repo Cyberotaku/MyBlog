@@ -1,0 +1,30 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "阴暗の小窝",
+    "subtitle": "hekaze",
+    "icon": "https://genshinstart.fun/assets/favicon.ico",
+    "description": "一个小窝，记录一些有趣的东西",
+    "home_page_url": "https://genshinstart.fun",
+    "items": [
+        {
+            "id": "https://genshinstart.fun/2023/11/09/note/11_10/%E5%B0%8F%E6%B5%8B%E8%AF%95/",
+            "url": "https://genshinstart.fun/2023/11/09/note/11_10/%E5%B0%8F%E6%B5%8B%E8%AF%95/",
+            "title": "小测试",
+            "date_published": "2023-11-09T09:38:07.000Z",
+            "content_html": "<h1 id=\"代办\"><a class=\"anchor\" href=\"#代办\">#</a> 代办</h1>\n<p>解决 alternate 无法修改的问题<br />\n解决主页面的轮播图问题<br />\n解决文章的封面问题<br />\n解决音乐加入的问题</p>\n<h2 id=\"测试\"><a class=\"anchor\" href=\"#测试\">#</a> 测试</h2>\n<p>总结：需要先在 git 上 push 后，再 pnpm run netlify，才能显示更新。</p>\n<p>到底是哪里出了问题让我的 alternate 改不了？？？</p>\n<h3 id=\"存在问题\"><a class=\"anchor\" href=\"#存在问题\">#</a> 存在问题</h3>\n<p>加不了音乐，一加音乐文章就消失</p>\n<p>本地部署会有变化，但网上部署却改变不了 alternate，也无法显示图片</p>\n",
+            "tags": [
+                "note",
+                "测试",
+                "hexo"
+            ]
+        },
+        {
+            "id": "https://genshinstart.fun/2023/11/07/hello-world/",
+            "url": "https://genshinstart.fun/2023/11/07/hello-world/",
+            "title": "Hello World",
+            "date_published": "2023-11-07T02:30:59.328Z",
+            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
+            "tags": []
+        }
+    ]
+}
