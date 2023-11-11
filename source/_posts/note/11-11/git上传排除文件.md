@@ -6,7 +6,7 @@ tags:
   - github
 categories:
   - note
-cover: cover.jpg
+cover: https://z1.ax1x.com/2023/11/08/pi1lhyd.jpg
 #  audio:
 #   - https://music.163.com/#/song?id=30245064
 #  audio: true
