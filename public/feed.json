@@ -7,6 +7,18 @@
     "home_page_url": "https://genshinstart.fun",
     "items": [
         {
+            "id": "https://genshinstart.fun/2023/11/11/note/11-11/git%E4%B8%8A%E4%BC%A0%E6%8E%92%E9%99%A4%E6%96%87%E4%BB%B6/",
+            "url": "https://genshinstart.fun/2023/11/11/note/11-11/git%E4%B8%8A%E4%BC%A0%E6%8E%92%E9%99%A4%E6%96%87%E4%BB%B6/",
+            "title": "git上传忽略",
+            "date_published": "2023-11-11T04:19:59.408Z",
+            "content_html": "<p>1、在需要创建 .gitignore 文件的文件夹，右键选择 Git Bash 进入命令行，进入项目所在目录。</p>\n<p>2、输入 touch .gitignore ，生成 “.gitignore” 文件。</p>\n<p>3、在”.gitignore” 文件里输入你要忽略的文件夹及其文件就可以了。（注意格式）</p>\n<p>我的.gitignore</p>\n<p>.DS_Store<br />\nnode_modules/<br />\ndist/<br />\nnpm-debug.log<br />\n4、下面我们看看常用的规则：<br />\n1）/mtk/               过滤整个文件夹<br />\n 2）*.zip                过滤所有.zip 文件<br />\n 3）/mtk/do.c         过滤某个具体文件</p>\n<p>node_modules/   表示过滤这个文件夹<br />\n<em>.zip   过滤 zip 后缀文件<br />\n demo.html   过滤该文件<br />\n！src/   不过滤该文件夹<br />\n！</em>.js   不过滤 java 源文件<br />\n！index.html 不过滤该文件<br />\n 1）配置语法：<br />\n以斜杠 “/” 开头表示目录；<br />\n以星号 “*” 通配多个字符；<br />\n以问号 “?” 通配单个字符<br />\n以方括号 “[]” 包含单个字符的匹配列表；<br />\n以叹号 “!” 表示不忽略 (跟踪) 匹配到的文件或目录；</p>\n<p>此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效；</p>\n<p>2）示例说明<br />\n a）规则：fd1/*<br />\n 说明：忽略目录 fd1 下的全部内容；注意，不管是根目录下的 /fd1/ 目录，还是某个子目录 /child/fd1/ 目录，都会被忽略；<br />\nb）规则：/fd1/*<br />\n 说明：忽略根目录下的 /fd1/ 目录的全部内容；<br />\nc）规则：<br />\n/*<br />\n!.gitignore<br />\n!/fw/bin/<br />\n!/fw/sf/<br />\n 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；</p>\n<p>5、操作方法</p>\n<p>一是常规的 windows 操作</p>\n<p>根目录下创建 gitignore.txt；<br />\n编辑 gitignore.txt，写下你的规则，例如加上 node_modules/；<br />\n打开命令行窗口，切换到根目录（可以直接在文件夹上面的地址栏输入 cmd 回车）；<br />\n执行命令 ren gitignore.txt .gitignore。<br />\n二是用 Git Bash</p>\n<p>根目录下右键选择 “Git Bash Here” 进入 bash 命令窗口；<br />\n输入 vim .gitignore 命令，打开文件（没有文件会自动创建）；<br />\n按 i 键切换到编辑状态，输入规则，例如 node_modules/，然后按 Esc 键退出编辑，输入:wq 保存退出。<br />\n最后需要强调的一点是，如果你不慎在创建.gitignore 文件之前就 push 了项目，那么即使你在.gitignore 文件中写入新的过滤规则，这些规则也不会起作用，Git 仍然会对所有文件进行版本管理。<br />\n简单来说，出现这种问题的原因就是 Git 已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore 文件的习惯，否则一旦 push，处理起来会非常麻烦。</p>\n<ol start=\"6\">\n<li>创建.gitignore 文件之前就 push 了文件 (如何忽略)</li>\n</ol>\n<p>git rm -r --cached 要忽略的文件 / 文件夹名字<br />\n ————————————————<br />\n 版权声明：本文为 CSDN 博主「懂懂 kkw」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br />\n原文链接：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ppYW5kYW4xMTI3L2FydGljbGUvZGV0YWlscy84MTIwNTUzMA==\">https://blog.csdn.net/jiandan1127/article/details/81205530</span></p>\n",
+            "tags": [
+                "note",
+                "笔记",
+                "github"
+            ]
+        },
+        {
             "id": "https://genshinstart.fun/2023/11/09/note/11_10/%E5%B0%8F%E6%B5%8B%E8%AF%95/",
             "url": "https://genshinstart.fun/2023/11/09/note/11_10/%E5%B0%8F%E6%B5%8B%E8%AF%95/",
             "title": "小测试",
@@ -17,14 +29,6 @@
                 "测试",
                 "hexo"
             ]
-        },
-        {
-            "id": "https://genshinstart.fun/2023/11/07/hello-world/",
-            "url": "https://genshinstart.fun/2023/11/07/hello-world/",
-            "title": "Hello World",
-            "date_published": "2023-11-07T02:30:59.328Z",
-            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
-            "tags": []
         }
     ]
 }
