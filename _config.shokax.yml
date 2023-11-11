@@ -34,3 +34,18 @@ darkmode: true # true
 
 auto_scroll: false
 
+social:
+  github: https://github.com/name || github || "#191717"
+  #google: https://plus.google.com/yourname || google
+  #twitter: https://twitter.com/yourname || twitter || "#00aff0"
+  #zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
+  music: https://music.163.com/#/user/home?id=1694048743 || cloud-music || "#e60026"
+  #weibo: https://weibo.com/yourname || weibo || "#ea716e"
+  #about: https://about.me/yourname || address-card || "#3b5998"
+  email: 3194915926@qq.com || envelope || "#55acd5"
+  #facebook: https://www.facebook.com/yourname || facebook
+  #  stackoverflow: https://stackoverflow.com/ || stack-overflow
+  #youtube: https://youtube.com/yourname || youtube
+  #instagram: https://instagram.com/yourname || instagram
+  #skype: skype:yourname?call|chat || skype
+  #douban: https://www.douban.com/people/yourname/ || douban
