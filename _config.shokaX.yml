@@ -1,4 +1,4 @@
-alternate: "hekaze's blog" # 站点大标题
+alternate : "hekaze's blog"
 
 statics: "/" # 静态文件根目录
 assets: "assets"
@@ -224,7 +224,7 @@ summary:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/Cyberotaku || github || "#191717"
+  github: https://github.com/name || github || "#191717"
   #google: https://plus.google.com/yourname || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
   #zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
@@ -417,17 +417,3 @@ vendors:
     copy_tex: npm/katex@0.16.7/dist/contrib/copy-tex.min.js # ok
     chart: npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js # ok
 
-algolia:
-  appId: U7UHH0UC24 #Your appId
-  apiKey: dcfaa7e762bd9f9425278a6c146dd91c #Your apiKey
-  adminApiKey: b30025fe49ef1d0450b80df93daa0f68 #Your adminApiKey
-  chunkSize: 5000
-  indexName: shokaX #"shokaX"
-  fields:
-    - title #必须配置
-    - path #必须配置
-    - categories #推荐配置
-    - content:strip:truncate,0,2000
-    - gallery
-    - photos
-    - tags
